@@ -1,0 +1,26 @@
+/* *{
+    border: 1px solid red;
+} */
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#deleteContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+#deleteContainer > button{
+    height: 50px;
+    width: 80px;
+}
+
+li{
+    margin-bottom: 32px;
+}
+
+img{
+    
+}
