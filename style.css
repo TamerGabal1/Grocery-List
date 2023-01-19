@@ -2,6 +2,17 @@
     border: 1px solid red;
 } */
 
+
+body{
+    background-color:darkcyan;
+    color:aliceblue;
+    font-size: 25px;
+}
+
+form > button{
+    background-color: green;
+}
+
 #container{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -10,17 +21,27 @@
 #deleteContainer{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 #deleteContainer > button{
     height: 50px;
     width: 80px;
+    background-color: red;
+    margin-top: 7px;
+    margin-bottom: 5px;
 }
 
 li{
     margin-bottom: 32px;
+    margin-left: 200px;
 }
 
-img{
-    
+#imgContainer{
+    display:flex;
+    justify-content: center;
+}
+
+form{
+    text-align: center;
 }
